@@ -32,11 +32,14 @@ After the server restarted, I confirmed the promotion was successful by checking
 <img width="1164" height="669" alt="image" src="https://github.com/user-attachments/assets/99ff5d01-1a92-4f1c-9e4d-771de475c322" />
 <img width="749" height="497" alt="image" src="https://github.com/user-attachments/assets/aabdf39c-9c34-4fc2-987b-09e34ff684a9" />
 
-
-
-
-
-
-
+## Step 4: Creating Organizational Units
+Created OUs to simulate a real company structure. I organized them by department to mirror how a corporate environment would manage users and apply Group Policy.
+HR
+IT
+Sales
+Marketing
+Finance
+To create an OU: right-clicked the domain in AD Users and Computers, selected New, then Organizational Unit, and named it.
+<img width="241" height="482" alt="image" src="https://github.com/user-attachments/assets/ef250d60-b97d-4820-937c-0eeb67366bb1" />
 
 
