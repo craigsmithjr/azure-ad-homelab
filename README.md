@@ -72,6 +72,12 @@ Logged each simulated task as a ticket in Zendesk to practice real-world helpdes
 
 <img width="2503" height="1276" alt="image" src="https://github.com/user-attachments/assets/8b9b2e84-ed76-4c45-a436-1faf87484125" />
 
-
+## What i learned 
+How to deploy and configure a cloud-based virtual machine in Microsoft Azure
+How to promote a Windows Server to a Domain Controller and configure AD DS and DNS
+How Active Directory uses OUs for organization and Group Policy, and groups for access control
+How to create and manage user accounts, reset passwords, and assign group memberships
+How DNS is essential for Active Directory to function
+How to document IT tasks using a ticketing system
 
 
