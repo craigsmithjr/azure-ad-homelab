@@ -25,6 +25,7 @@ Create your root domain name and DRSM password
 Review selections and install
 
 <img width="753" height="554" alt="image" src="https://github.com/user-attachments/assets/f3d2c3c1-7ed3-45b8-85ad-f9c98dccb69a" />
+
 Once installed in the top right of the Server Manager window, under tools click Active Directory Users and Computers 
 <img width="1179" height="763" alt="image" src="https://github.com/user-attachments/assets/8db4e240-9a81-4524-9889-f82bfb0e7065" />
 
