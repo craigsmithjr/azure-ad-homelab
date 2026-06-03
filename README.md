@@ -17,5 +17,12 @@ Continue with the installation
 <img width="802" height="756" alt="image" src="https://github.com/user-attachments/assets/87bb4368-7c29-455a-8fb4-c3d1ad62339f" />
 Once installed click on the prompt to promote to a domain controller 
 <img width="1099" height="530" alt="image" src="https://github.com/user-attachments/assets/b075533e-f891-4e58-8c1c-0e18e61b1377" />
+Create your root domain name and DRSM password
+<img width="753" height="554" alt="image" src="https://github.com/user-attachments/assets/3a66bd40-803b-4419-a4c1-6f44209d31f9" />
+<img width="753" height="554" alt="image" src="https://github.com/user-attachments/assets/64538ae3-e3c1-4514-b552-28f68cf1c8e3" />
+Review selections and install
+<img width="753" height="554" alt="image" src="https://github.com/user-attachments/assets/f3d2c3c1-7ed3-45b8-85ad-f9c98dccb69a" />
+
+
 
 
