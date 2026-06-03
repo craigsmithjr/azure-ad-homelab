@@ -15,6 +15,7 @@ Click next until you get to Server roles and install Active DIrectory features a
 
 Continue with the installation 
 <img width="802" height="756" alt="image" src="https://github.com/user-attachments/assets/87bb4368-7c29-455a-8fb4-c3d1ad62339f" />
+
 Once installed click on the prompt to promote to a domain controller 
 <img width="1099" height="530" alt="image" src="https://github.com/user-attachments/assets/b075533e-f891-4e58-8c1c-0e18e61b1377" />
 Create your root domain name and DRSM password
