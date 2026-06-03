@@ -57,5 +57,11 @@ Department-specific groups (HR-Team, IT-Team, etc.)
 
 <img width="666" height="555" alt="image" src="https://github.com/user-attachments/assets/fcbee2ff-6d3d-487d-b942-605123dfb9c0" />
 
+## Step 7: Simulating a Password Reset
+Simulated a common helpdesk task by resetting a user's password through Active Directory Users and Computers. Right-clicked the user, selected Reset Password, and set a new temporary password with the requirement to change it at next logon.
+This is one of the most frequent tasks in any IT support role and understanding how to do it in AD is essential.
+
+<img width="754" height="531" alt="image" src="https://github.com/user-attachments/assets/a8586c3f-9fc1-419a-9e20-a6d04dcae694" />
+
 
 
