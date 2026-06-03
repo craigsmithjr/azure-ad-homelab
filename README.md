@@ -67,5 +67,11 @@ This is one of the most frequent tasks in any IT support role and understanding 
 Added a domain user to the Remote Desktop Users group to allow RDP access to the server. In a production environment, users would log into a domain-joined workstation rather than the Domain Controller directly. Due to Azure free trial vCPU limitations, I used the DC to demonstrate domain user authentication and verified access using whoami.
 <img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/2506abeb-6c97-41b9-afbd-f13dac3abbe9" />
 
+## Step 9: Documenting in Zendesk
+Logged each simulated task as a ticket in Zendesk to practice real-world helpdesk documentation. Each ticket included the issue reported, the steps taken to resolve it, and the final resolution. Maintaining clear and accurate ticket documentation is a critical part of any IT support role.
+
+<img width="2503" height="1276" alt="image" src="https://github.com/user-attachments/assets/8b9b2e84-ed76-4c45-a436-1faf87484125" />
+
+
 
 
