@@ -43,7 +43,7 @@ To create an OU: right-clicked the domain in AD Users and Computers, selected Ne
 
 <img width="241" height="482" alt="image" src="https://github.com/user-attachments/assets/ef250d60-b97d-4820-937c-0eeb67366bb1" />
 
-## Creating User Accounts
+## Step 5: Creating User Accounts
 Created user accounts within each OU to simulate employees across different departments. Each account was given a temporary password with the "User must change password at next logon" option enabled, which is standard practice in a corporate environment.
 <img width="754" height="504" alt="image" src="https://github.com/user-attachments/assets/aa616b2c-db59-40d6-9b3e-c2839f1cf0ef" />
 
