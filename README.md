@@ -7,7 +7,7 @@ free trial. Selected Standard_DS1_v2 (1 vCPU, 3.5 GB RAM)
 with Azure Spot pricing to minimize costs.
 <img width="836" height="1035" alt="image" src="https://github.com/user-attachments/assets/c222f422-c696-4fb9-b943-7e8317e36d23" />
 
-## Step 2: Download Active Directory Domain features and DNS server tools 
+## Step 2: Promoting to Domain Controller and Configuring DNS
 From Server Manager click on add roles and features 
 <img width="1133" height="423" alt="image" src="https://github.com/user-attachments/assets/122bba8a-af03-406d-8685-91d40b2eaa77" />
 Click next until you get to Server roles and install Active DIrectory features and DNS server
