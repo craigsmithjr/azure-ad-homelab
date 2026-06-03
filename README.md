@@ -12,6 +12,7 @@ From Server Manager click on add roles and features
 <img width="1133" height="423" alt="image" src="https://github.com/user-attachments/assets/122bba8a-af03-406d-8685-91d40b2eaa77" />
 Click next until you get to Server roles and install Active DIrectory features and DNS server
 <img width="802" height="756" alt="image" src="https://github.com/user-attachments/assets/10636e53-856e-4219-8d46-7f11f1c6a74e" />
+
 Continue with the installation 
 <img width="802" height="756" alt="image" src="https://github.com/user-attachments/assets/87bb4368-7c29-455a-8fb4-c3d1ad62339f" />
 
