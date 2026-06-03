@@ -1,6 +1,14 @@
 # azure-ad-homelab
 Built a cloud-based Active Directory environment in Microsoft Azure using Windows Server 2025 to simulate enterprise identity management. Configured AD DS, DNS, OUs, security groups, and user accounts, and documented the full setup process step by step
 
+## Tools Used
+- Microsoft Azure (Free Trial)
+- Windows Server 2025 Datacenter
+- Active Directory Domain Services
+- DNS
+- Zendesk
+- Remmina (RDP Client on Linux)
+
 ## Step 1: Creating the VM in Azure 
 Created a Windows Server 2025 Datacenter VM using the Azure 
 free trial. Selected Standard_DS1_v2 (1 vCPU, 3.5 GB RAM) 
@@ -34,11 +42,11 @@ After the server restarted, I confirmed the promotion was successful by checking
 
 ## Step 4: Creating Organizational Units
 Created OUs to simulate a real company structure. I organized them by department to mirror how a corporate environment would manage users and apply Group Policy.
-HR
-IT
-Sales
-Marketing
-Finance
+- HR
+- IT
+- Sales
+- Marketing
+- Finance
 To create an OU: right-clicked the domain in AD Users and Computers, selected New, then Organizational Unit, and named it.
 
 <img width="241" height="482" alt="image" src="https://github.com/user-attachments/assets/ef250d60-b97d-4820-937c-0eeb67366bb1" />
@@ -50,10 +58,10 @@ Created user accounts within each OU to simulate employees across different depa
 ## Step 6: Creating Security Groups and Assigning Members
 Created security groups to manage access and permissions. A user can only belong to one OU but can be a member of multiple groups, which is how real organizations control access to resources like shared drives, VPN, printers, and software.
 Groups created:
-VPN-Access
-Remote-Desktop-Users
-All-Employees
-Department-specific groups (HR-Team, IT-Team, etc.)
+- VPN-Access
+- Remote-Desktop-Users
+- All-Employees
+- Department-specific groups (HR-Team, IT-Team, etc.)
 
 <img width="666" height="555" alt="image" src="https://github.com/user-attachments/assets/fcbee2ff-6d3d-487d-b942-605123dfb9c0" />
 
@@ -63,7 +71,7 @@ This is one of the most frequent tasks in any IT support role and understanding 
 
 <img width="754" height="531" alt="image" src="https://github.com/user-attachments/assets/a8586c3f-9fc1-419a-9e20-a6d04dcae694" />
 
-## Step 8 Step 8: Testing Remote Desktop Access with a Domain User
+## Step 8: Testing Remote Desktop Access with a Domain User
 Added a domain user to the Remote Desktop Users group to allow RDP access to the server. In a production environment, users would log into a domain-joined workstation rather than the Domain Controller directly. Due to Azure free trial vCPU limitations, I used the DC to demonstrate domain user authentication and verified access using whoami.
 <img width="770" height="503" alt="image" src="https://github.com/user-attachments/assets/2506abeb-6c97-41b9-afbd-f13dac3abbe9" />
 
@@ -73,11 +81,11 @@ Logged each simulated task as a ticket in Zendesk to practice real-world helpdes
 <img width="2503" height="1276" alt="image" src="https://github.com/user-attachments/assets/8b9b2e84-ed76-4c45-a436-1faf87484125" />
 
 ## What i learned 
-How to deploy and configure a cloud-based virtual machine in Microsoft Azure
-How to promote a Windows Server to a Domain Controller and configure AD DS and DNS
-How Active Directory uses OUs for organization and Group Policy, and groups for access control
-How to create and manage user accounts, reset passwords, and assign group memberships
-How DNS is essential for Active Directory to function
-How to document IT tasks using a ticketing system
+- How to deploy and configure a cloud-based virtual machine in Microsoft Azure
+- How to promote a Windows Server to a Domain Controller and configure AD DS and DNS
+- How Active Directory uses OUs for organization and Group Policy, and groups for access control
+- How to create and manage user accounts, reset passwords, and assign group memberships
+- How DNS is essential for Active Directory to function
+- How to document IT tasks using a ticketing system
 
 
