@@ -26,8 +26,15 @@ Review selections and install
 
 <img width="753" height="554" alt="image" src="https://github.com/user-attachments/assets/f3d2c3c1-7ed3-45b8-85ad-f9c98dccb69a" />
 
-Once installed in the top right of the Server Manager window, under tools click Active Directory Users and Computers 
+
+Step 3: Verifying the Domain Controller
+After the server restarted, I confirmed the promotion was successful by checking Server Manager. AD DS and DNS now appeared in the left sidebar. I also opened Active Directory Users and Computers from the Tools menu to verify the domain structure was created with the default containers
+<img width="1164" height="669" alt="image" src="https://github.com/user-attachments/assets/99ff5d01-1a92-4f1c-9e4d-771de475c322" />
+
 <img width="1179" height="763" alt="image" src="https://github.com/user-attachments/assets/8db4e240-9a81-4524-9889-f82bfb0e7065" />
+
+
+
 
 
 
