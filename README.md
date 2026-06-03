@@ -40,6 +40,7 @@ Sales
 Marketing
 Finance
 To create an OU: right-clicked the domain in AD Users and Computers, selected New, then Organizational Unit, and named it.
+
 <img width="241" height="482" alt="image" src="https://github.com/user-attachments/assets/ef250d60-b97d-4820-937c-0eeb67366bb1" />
 
 
