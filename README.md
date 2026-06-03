@@ -47,5 +47,15 @@ To create an OU: right-clicked the domain in AD Users and Computers, selected Ne
 Created user accounts within each OU to simulate employees across different departments. Each account was given a temporary password with the "User must change password at next logon" option enabled, which is standard practice in a corporate environment.
 <img width="754" height="504" alt="image" src="https://github.com/user-attachments/assets/aa616b2c-db59-40d6-9b3e-c2839f1cf0ef" />
 
+## Step 6: Creating Security Groups and Assigning Members
+Created security groups to manage access and permissions. A user can only belong to one OU but can be a member of multiple groups, which is how real organizations control access to resources like shared drives, VPN, printers, and software.
+Groups created:
+VPN-Access
+Remote-Desktop-Users
+All-Employees
+Department-specific groups (HR-Team, IT-Team, etc.)
+
+<img width="666" height="555" alt="image" src="https://github.com/user-attachments/assets/fcbee2ff-6d3d-487d-b942-605123dfb9c0" />
+
 
 
